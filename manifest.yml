@@ -1,0 +1,9 @@
+---
+applications:
+- name: PaaSTaDjango
+  memory: 512MB
+  disk_quota: 1024MB
+  buildpack: https://github.com/cloudfoundry/python-buildpack
+  command: bash ./run.sh
+  host: <host>
+  domain: <domain>

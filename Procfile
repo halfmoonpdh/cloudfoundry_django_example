@@ -1,0 +1,1 @@
+web: gunicorn paasta_django.wsgi --workers 2
